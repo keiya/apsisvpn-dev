@@ -1,7 +1,11 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-system('./before-vagrant.sh')
+#system("
+#    if [ #{ARGV[0]} = 'up' ]; then
+#        bash ./before-vagrant.sh
+#    fi
+#")
 
 # All Vagrant configuration is done below. The "2" in Vagrant.configure
 # configures the configuration version (we support older styles for
